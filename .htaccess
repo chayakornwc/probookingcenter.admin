@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteRule ^\/(mistonusk)([0-9]+)(.*)-c([0-9]+)\/$ ?mistonusk$2=$4&%{QUERY_STRING}[L]
+</IfModule>

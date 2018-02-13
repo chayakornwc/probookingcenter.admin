@@ -1,0 +1,20 @@
+.table-devgun>thead>tr>th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.pink {
+    color: #f532e5;
+}
+
+.red {
+    color: #f05050;
+}
+
+.blue {
+    color: #8bb8f1;
+}
